@@ -337,7 +337,7 @@ div#nome {
   width: 100%;
   min-height: 550px;
   height: 100%;
-  max-height: 2000px;
+  max-height: 100000px;
   background-color: #ccc;
   /* Scroll Snap */
   scroll-snap-align: center;
