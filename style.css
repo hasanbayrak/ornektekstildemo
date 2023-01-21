@@ -5,6 +5,8 @@
 
 .hakkımızda{
  width: 80%;
+ min-height: 300px; 
+ max-height: 900px;
 }
 
 .hakkımızda p{
@@ -12,7 +14,7 @@
   position: relative;
   display: flex;  
   flex-direction: row;
-  text-align: justify;
+  text-align: justify;  
 }
 
 .videoa{
@@ -64,22 +66,22 @@ body {
   display: flex;
   list-style: none;
   width: 100%;
-  justify-content: center;
+  justify-content: center;  
 }
 
 
 .navbar ul li {
   width: 100%;
-  margin: 0 0.1rem;
+  margin: 0 0.2rem;
   padding: 0rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  
+  align-items: center;   
 }
 
 
 .navbar ul li a {
+  width: 100%;
   font-size: 80%;
   text-decoration: none;
   text-transform: uppercase;
@@ -178,7 +180,7 @@ section#konum {
 
 iframe {
   width: 75%;
-  height: 45%;
+  height: 75%;
   filter: invert(0%);
   display: flex;
   align-items: center;
@@ -333,7 +335,8 @@ div#nome {
   justify-content: flex-start;
   text-align: center;
   width: 100%;
-  height: auto;
+  min-height: 550px;
+  max-height: 2000px;
   background-color: #ccc;
   /* Scroll Snap */
   scroll-snap-align: center;
