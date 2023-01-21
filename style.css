@@ -336,7 +336,7 @@ div#nome {
   text-align: center;
   width: 100%;
   min-height: 550px;
-  height: 100%;
+  height: auto;
   max-height: 100000px;
   background-color: #ccc;
   /* Scroll Snap */
