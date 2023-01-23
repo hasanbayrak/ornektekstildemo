@@ -299,21 +299,28 @@ iframe {
 }
 
 
-.images{
-  width: 100%;
+.images{  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .images img{
-  max-width: 200px;
-  width: 210px;
-  height: 210px;
+  max-width: 250px;
+  width: 200px;
+  height: 200px;
   transition: all .4s ease-in-out;
 }
 /*filter CSS */
 
 #fish:checked ~ .images > img:not([class*='fish']),
 #birds:checked ~ .images > img:not([class*='birds']),
-#lion:checked ~ .images > img:not([class*='lion']){
+#lion:checked ~ .images > img:not([class*='lion']),
+#kot:checked ~ .images > img:not([class*='kot']),
+#denim:checked ~ .images > img:not([class*='denim']),
+#viskon:checked ~ .images > img:not([class*='viskon']){
  width: 0px;
  height: 0px;
 }
@@ -321,10 +328,14 @@ iframe {
 #all:checked ~ .all,
 #fish:checked ~ .tag1, 
 #birds:checked ~ .tag2,
-#lion:checked ~ .tag3{
+#lion:checked ~ .tag3,
+#kot:checked ~ .tag4,
+#denim:checked ~ .tag5,
+#viskon:checked ~ .tag6
+{
   background-color: #333333;      
   color: white;
-} 
+}  
 
 
 
